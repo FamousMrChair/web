@@ -1,6 +1,17 @@
 h1
 {
   Color:blue;
+  font-size:56px;
+}
+h2
+{
+  color:red;
+  font-size:42px;
+}
+h3
+{
+  color:green;
+  font-size:28px;
 }
 p
 {
