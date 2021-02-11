@@ -2,6 +2,7 @@
 
 h1
 {
+  font: italic 1.2em "Fira Sans", serif;
   color:blue;
   font-size:56px;
 }
