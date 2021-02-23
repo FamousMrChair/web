@@ -1,6 +1,7 @@
 <style>
-heading{
-  background-color: lightblue;
+body{
+  background-color: darkslategrey;
+  color: azure;
 }
 h1{
   font: italic 1.2em "Fira Sans", serif;
