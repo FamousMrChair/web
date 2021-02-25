@@ -3,8 +3,7 @@
 #myFakeElement { color:red ; }
 
 body {
-  margin: 25px 100px 50px 100px;
-  background-color: hsla(50, 33%, 25%, .75);
+  background-color: #008080;
   font-family: 'Times New Roman', sans-serif;
   font-weight: 400;
 }
@@ -69,17 +68,20 @@ header::after {
 }
 
 .what {
-  margin: 300px;
+  margin-left: 300px;
+  margin-right:300px
   border: 10px solid #000000;
 }
 
 .bts {
-  margin: 300px;
+  margin-left: 300px;
+  margin-right:300px
   border: 10px solid #000000;
 }
 
 .btsbias {
-  margin: 300px;
+  margin-left: 300px;
+  margin-right:300px
   border: 10px solid #000000;
 }
   
