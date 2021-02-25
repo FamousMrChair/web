@@ -86,14 +86,18 @@ h1{
 }
 h2{
   color:red;
-  font-size:28px;
+  font-size:56px;
 }
 h3{
   color:green;
-  font-size:28px;
+  font-size:56px;
+}
+h4{
+  color:purple;
+  font-size:56px;
 }
 p{
-  font-size:14px;
+  font-size:28px;
   font-weight:bold;
 }
 
