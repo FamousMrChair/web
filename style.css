@@ -2,7 +2,7 @@
 
 body {
   margin: 25px 100px 50px 100px;
-  background: blue;
+  background-color: hsla(50, 33%, 25%, .75);
   font-family: 'Times New Roman', sans-serif;
   font-weight: 400;
 }
