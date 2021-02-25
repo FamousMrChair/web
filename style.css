@@ -19,8 +19,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 100 px;
-  padding-top: 25 px;
+  margin-left: 400 px;
+  padding-top: 40 px;
   
   position: relative;
 }
@@ -32,13 +32,13 @@ nav a {
 }
 
 nav a:hover {
-  color #000;
+  color: #000;
 }
 
 nav a:: before {
   content: '';
   display: block;
-  height: 5px;
+  height: 10px;
   background-color #444;
   
   position: absolute;
