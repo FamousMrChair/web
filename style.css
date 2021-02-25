@@ -1,6 +1,6 @@
 <style>
 body{
-  background: #222;
+  background-color: darkslategrey;
   font-family: 'Times New Roman', sans-serif;
   font-weight: 400;
 }
@@ -20,6 +20,8 @@ nav li {
   display: inline-block;
   margin-left: 100 px;
   padding-top: 25 px;
+  
+  position: relative;
 }
 
 nav a {
@@ -30,6 +32,21 @@ nav a {
 
 nav a:hover {
   color #000;
+}
+
+nav a:: before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color #444;
+  
+  position: absolute;
+  top: 0;
+  width: 0%;
+}
+
+nav a: hover::before {
+  width: 100%
 }
 
 header {
