@@ -1,6 +1,6 @@
 <style>
 body {
-  margin: 100 px;
+  margin: 25px 100px 50px 100px;
   background: #222;
   font-family: 'Times New Roman', sans-serif;
   font-weight: 400;
@@ -12,15 +12,15 @@ body {
 }
 
 nav ul {
-  margin: 100 px;
+  margin: 100px;
   padding: 0;
   list-style: none;
 }
 
 nav li {
   display: inline-block;
-  margin-left: 400 px;
-  padding-top: 40 px;
+  margin-left: 400px;
+  padding-top: 40px;
   
   position: relative;
 }
