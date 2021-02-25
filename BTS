@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navbar</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        
+    <header>
+        <div class="navbar">
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li> <li><a href="#">Link 1</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">BTS</a></li>
+                    <li><a href="#">My favorite groups</a></li>
+                    <li><a href="#">Why should you care</a></li>
+                </ul>
+            </nav>
+        </div>
+      </header>
+      
+    </body>
+</html>
