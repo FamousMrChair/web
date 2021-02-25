@@ -11,14 +11,14 @@ body{
 }
 
 nav ul {
-  margin: 0;
+  margin: 100 px;
   padding: 0;
   list-style: none;
 }
 
 nav li {
   display: inline-block;
-  margin: 0 35 px;
+  margin-left: 100 px;
   padding-top: 25 px;
 }
 
@@ -26,6 +26,10 @@ nav a {
   color: #555;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+nav a:hover {
+  color #000;
 }
 
 header {
