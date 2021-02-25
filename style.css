@@ -74,9 +74,16 @@ header::after {
 
 .bts {
   margin: 70px;
+  margin-right: 700px;
+  border: 10px solid #000000;
+}
+
+.btsbias {
+  margin: 70px;
   margin-left: 900px;
   border: 10px solid #000000;
 }
+  
     
     
 
