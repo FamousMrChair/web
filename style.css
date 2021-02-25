@@ -84,7 +84,18 @@ header::after {
   margin-right:300px
   border: 10px solid #000000;
 }
-  
+
+.twice {
+  margin-left: 300px;
+  margin-right:300px
+  border: 10px solid #000000;
+}
+
+.loona {
+  margin-left: 300px;
+  margin-right:300px
+  border: 10px solid #000000;
+}
     
     
 
