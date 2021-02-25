@@ -1,5 +1,7 @@
 <style>
 
+#myFakeElement { color:red ; }
+
 body {
   margin: 25px 100px 50px 100px;
   background-color: hsla(50, 33%, 25%, .75);
