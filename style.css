@@ -52,7 +52,12 @@ nav a: hover::before {
 
 header {
   background: #55d6aa;
-  height: 50px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 h1{
