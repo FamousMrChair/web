@@ -67,20 +67,17 @@ header::after {
 }
 
 .what {
-  margin: 70px;
-  margin-right: 900px;
+  margin: 300px;
   border: 10px solid #000000;
 }
 
 .bts {
-  margin: 70px;
-  margin-right: 700px;
+  margin: 300px;
   border: 10px solid #000000;
 }
 
 .btsbias {
-  margin: 70px;
-  margin-left: 700px;
+  margin: 300px;
   border: 10px solid #000000;
 }
   
