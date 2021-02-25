@@ -10,6 +10,12 @@ body{
   margin: 0 auto;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 header {
   background: #55d6aa;
 }
