@@ -1,12 +1,18 @@
 <!DOCTYPE HTML>
-
+<html>
+    <h1> My Favorite Polynomial</h1>
+    <p> Hello there! Before today, I have never had a "favorite" polynomial, but then Mr. Konstantinovich made a homework assignment that forced us to think about
+        a polynomial that is our "favorite," and so I just made up a random 4 term polynomial! This is the polynomial that got lucky enough to be chosen by me :D </p>
 def makePolyTable(s,n):
-    Table3 = "<html>\n\t<table>\n\t\t<tr><th>x</th><th>y=4x^3+2x^2+7x+20</th></tr>"
+    Table3 = "\n\t<table>\n\t\t<tr><th>x</th><th>y=4x^3+2x^2+7x+20</th></tr>"
     x = s
     while x <= n:
         Table3 = Table3 + "\n\t\t<tr><td>" + str(x) + "</td><td>" + str((3*(x ** 3)) + (2*(x ** 2)) + (7*x) + 20) + "</td></tr>"
         x += 1
-    Table3 = Table3 + "\n\t</table>\n</html>"
+    Table3 = Table3 + "\n\t</table>\n"
     print(Table3)
+     
 
 print (makePolyTable (-2,5))
+
+</html>
