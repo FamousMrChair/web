@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+
+def makePolyTable(s,n):
+    Table3 = "<html>\n\t<table>\n\t\t<tr><th>x</th><th>y=4x^3+2x^2+7x+20</th></tr>"
+    x = s
+    while x <= n:
+        Table3 = Table3 + "\n\t\t<tr><td>" + str(x) + "</td><td>" + str((3*(x ** 3)) + (2*(x ** 2)) + (7*x) + 20) + "</td></tr>"
+        x += 1
+    Table3 = Table3 + "\n\t</table>\n</html>"
+    print(Table3)
+
+print (makePolyTable (-2,5))
